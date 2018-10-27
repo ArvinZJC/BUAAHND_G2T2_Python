@@ -1,0 +1,12 @@
+##ignore unnecessary files to avoid pushing them
+
+#byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#log files
+*.log
+
+#others
+/.settings/
