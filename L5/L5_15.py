@@ -1,14 +1,14 @@
-#2018.05.12, 第7章.pptx, P33, program that reads the specified file
+# 第7章.pptx, P33, program that reads the specified file
 
-file = open( "C:\\SD\\Python\\BUAAHND_G2T2_Python\\L5\\test.txt" )
+file = open("C:\\SD\\Python\\BUAAHND_G2T2_Python\\L5\\test.txt")
 
 while True:
     chunk = file.readline()
 
-    #if no content can be read，then the execution is out of loop
+    # if no content can be read，then the execution is out of loop
     if not chunk:
         break
     
-    print( chunk )
+    print(chunk)
 
-file.close()  #close the file currently associated with the stream to avoid resource leak
+file.close()

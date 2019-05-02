@@ -1,19 +1,19 @@
-#2018.05.12, 第7章.pptx, P49 & 50, program that writes to the specified file and reads it
+# 第7章.pptx, P49 & 50, program that writes to the specified file and reads it
 
-file = open( r"C:\SD\Python\BUAAHND_G2T2_Python\L5\test.txt", "w+" )
+file = open(r"C:\SD\Python\BUAAHND_G2T2_Python\L5\test.txt", "w+")
 
 position1 = file.tell()
-file.write( "Hello Python!\nHello Python!\nHello Python!" )
+file.write("Hello Python!\nHello Python!\nHello Python!")
 position2 = file.tell()
-print( position1 )
-print( position2, end = "\n\n" )
+print(position1)
+print(position2, end = "\n\n")
 
-file.seek( 0 )  #set the file pointer to the start
+file.seek(0)  # set the file pointer to the start
 position3 = file.tell()
 str2 = file.readline()
 position4 = file.tell()
-print( position3 )
-print( str2 )
-print( position4 )
+print(position3)
+print(str2)
+print(position4)
 
-file.close()  #close the file currently associated with the stream to avoid resource leak
+file.close()

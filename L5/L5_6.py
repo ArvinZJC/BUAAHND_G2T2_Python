@@ -1,11 +1,13 @@
-#2018.05.12, 第6章.pptx, P42, program using closure
+# 第6章.pptx, P42, program that uses closure
+
 
 def Calculation():
-    def Add( x, y ):
-        return x+y
+    def Add(x, y):
+        return x + y
     
     return Add
 
+
 Calculation_Add = Calculation()
 
-print( Calculation_Add( 1, 2 ) )
+print(Calculation_Add(1, 2))
