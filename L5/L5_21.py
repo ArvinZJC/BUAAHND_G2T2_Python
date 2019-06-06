@@ -3,7 +3,7 @@
 import os
 
 print(os.getcwd())
-print(os.listdir(r"C:\SD\Python\BUAAHND_G2T2_Python\L5"))
+print(os.listdir(r"D:\SD\Python\BUAAHND_G2T2_Python\L5"))
 
-os.mkdir(r"C:\SD\Python\BUAAHND_G2T2_Python\L5\test")
-os.rmdir(r"C:\SD\Python\BUAAHND_G2T2_Python\L5\test")
+os.mkdir(r"D:\SD\Python\BUAAHND_G2T2_Python\L5\test")
+os.rmdir(r"D:\SD\Python\BUAAHND_G2T2_Python\L5\test")

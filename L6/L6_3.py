@@ -14,7 +14,7 @@ winForm.title("test")
 button1 = Button(winForm, text = "Surprise?", command = Feedback)
 button1.pack()
 
-pic = PhotoImage(file = r"C:\SD\Python\BUAAHND_G2T2_Python\L6\QR Code.png")
+pic = PhotoImage(file = r"D:\SD\Python\BUAAHND_G2T2_Python\L6\QR Code.png")
 button2 = Button(winForm, command = Feedback, image = pic)
 button2.bm = pic
 button2.pack()

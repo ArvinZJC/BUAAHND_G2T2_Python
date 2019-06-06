@@ -1,6 +1,6 @@
 # 第7章.pptx, P49 & 50, program that writes to the specified file and reads it
 
-file = open(r"C:\SD\Python\BUAAHND_G2T2_Python\L5\test.txt", "w+")
+file = open(r"D:\SD\Python\BUAAHND_G2T2_Python\L5\test.txt", "w+")
 
 position1 = file.tell()
 file.write("Hello Python!\nHello Python!\nHello Python!")

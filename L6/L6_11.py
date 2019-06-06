@@ -6,7 +6,7 @@ winForm = Tk()
 winForm.title("QR Code")
 
 canvas = Canvas(winForm, bg = "white", width = 600, height = 400)
-pic = PhotoImage(file = r"C:\SD\Python\BUAAHND_G2T2_Python\L6\QR Code.png")
+pic = PhotoImage(file = r"D:\SD\Python\BUAAHND_G2T2_Python\L6\QR Code.png")
 canvas.create_image((300, 200), image = pic)
 canvas.pack()
 

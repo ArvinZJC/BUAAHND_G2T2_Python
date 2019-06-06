@@ -14,7 +14,7 @@ label1.pack()
 label2 = Label(winForm, bitmap = "warning")
 label2.pack()
 
-pic = PhotoImage(file = r"C:\SD\Python\BUAAHND_G2T2_Python\L6\QR Code.png")
+pic = PhotoImage(file = r"D:\SD\Python\BUAAHND_G2T2_Python\L6\QR Code.png")
 label3 = Label(winForm, image = pic)
 label3.bm = pic
 label3.pack()

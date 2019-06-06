@@ -1,6 +1,6 @@
 # 第7章.pptx, P33, program that reads the specified file
 
-file = open("C:\\SD\\Python\\BUAAHND_G2T2_Python\\L5\\test.txt")
+file = open("D:\\SD\\Python\\BUAAHND_G2T2_Python\\L5\\test.txt")
 
 while True:
     chunk = file.readline()
