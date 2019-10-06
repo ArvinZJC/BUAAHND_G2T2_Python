@@ -13,7 +13,7 @@ class Test:
         Test.counter -= 1
 
 
-user = Test()  # create a Test object and assign it to "user"
+user = Test() # create a Test object and assign it to "user"
 
 user.counter += 1
 print(user.counter)

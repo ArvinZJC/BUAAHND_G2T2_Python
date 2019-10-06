@@ -8,7 +8,7 @@ position2 = file.tell()
 print(position1)
 print(position2, end = "\n\n")
 
-file.seek(0)  # set the file pointer to the start
+file.seek(0) # set the file pointer to the start
 position3 = file.tell()
 str2 = file.readline()
 position4 = file.tell()

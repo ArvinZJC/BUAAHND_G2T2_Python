@@ -14,7 +14,7 @@ def Feedback():
 winFRM = Tk()
 
 flag = IntVar()
-flag.set(0)  # set Off as the initial status of the Checkbutton control "checkbutton"
+flag.set(0) # set Off as the initial status of the Checkbutton control "checkbutton"
 checkbutton = Checkbutton(winFRM, variable = flag, text = "Python", command = Feedback)
 checkbutton.pack()
 

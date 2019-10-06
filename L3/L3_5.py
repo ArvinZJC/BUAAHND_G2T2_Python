@@ -8,4 +8,4 @@ def DisplayDictionary(**dictionary):
 	print(dictionary)
 
 
-DisplayDictionary(a = 1, b = 2, c = 3)  # call the specified function to print a dictionary
+DisplayDictionary(a = 1, b = 2, c = 3) # call the specified function to print a dictionary

@@ -8,7 +8,7 @@ class Shape:
     __metaclass__ = ABCMeta
 
     def __init__(self):
-        self.color = "black"  # set black as the default colour
+        self.color = "black" # set black as the default colour
 
     @abstractmethod
     def Draw(self):
@@ -38,7 +38,7 @@ class Line(Shape):
         print("Draw Line: ((%d, %d), (%d, %d))" %(self.x1, self.y1, self.x2, self.y2))
 
 
-newCircle = Circle(10, 10, 5)  # create a Circle object and assign it to "newCircle"
-newLine = Line(10, 10, 20, 20)  # create a Line object and assign it to "newLine"
-newCircle.Draw()  # call the specified function in class Circle (parent class Shape) to print the title of the circle
-newLine.Draw()  # call the specified function in class Line (parent class Shape) to print the title of the line
+newCircle = Circle(10, 10, 5) # create a Circle object and assign it to "newCircle"
+newLine = Line(10, 10, 20, 20) # create a Line object and assign it to "newLine"
+newCircle.Draw() # call the specified function in class Circle (parent class Shape) to print the title of the circle
+newLine.Draw() # call the specified function in class Line (parent class Shape) to print the title of the line

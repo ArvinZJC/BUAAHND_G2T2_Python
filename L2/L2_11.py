@@ -1,7 +1,7 @@
 # 第2章.pptx, P113 - 133, program that uses sets
 
 set1 = set("Python")
-frozenset1 = frozenset("python")  # the elements cannot be changed directly
+frozenset1 = frozenset("python") # the elements cannot be changed directly
 
 print(type(set1))
 print(set1)

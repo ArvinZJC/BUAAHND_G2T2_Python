@@ -12,4 +12,4 @@ def InfoOfTuple(*tuple1):
 		print(tuple1[index])
 
 
-InfoOfTuple(1, 2, 3, 4)  # call the specified function to print the information of the tuple
+InfoOfTuple(1, 2, 3, 4) # call the specified function to print the information of the tuple

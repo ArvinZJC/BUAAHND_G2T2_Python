@@ -6,7 +6,7 @@ class Test:
         self.str1 = "Hello Python!"
 
 
-user = Test()  # create a Test object and assign it to "user"
+user = Test() # create a Test object and assign it to "user"
 print(isinstance(user, Test))
 
 list1 = [1, 2, 3, 4]

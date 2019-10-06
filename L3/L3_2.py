@@ -9,7 +9,7 @@ def IncreaseValue(number):
     print('The decimal address of the formal parameter "number":', id(number), "\nIts value:", number, end = "\n\n")
 
 
-x = 10  # the actual parameter "x"
+x = 10 # the actual parameter "x"
 
-IncreaseValue(x)  # call the specified function to print the decimal address and the value of a formal parameter
+IncreaseValue(x) # call the specified function to print the decimal address and the value of a formal parameter
 print('The decimal address of the actual parameter "x":', id(x), "\nIts value:", x)
